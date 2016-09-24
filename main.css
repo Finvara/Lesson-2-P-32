@@ -1,0 +1,38 @@
+#gallery {
+    width: 970px;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+    height: 800px;
+    padding-top: 20px;
+}
+#gallery ul {
+    margin: 0;
+    padding: 0;
+}
+#gallery ul li {
+    list-style: none;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    height: 220px;
+    width: 200px;
+    border: 1px solid blue;
+}
+
+#gallery ul li img {
+    width: 200px;
+    height: 190px;
+}
+
+
+#show, #show img {
+    width: 250px;
+    height: 250px;
+  
+}
+#show {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}

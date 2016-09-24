@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Игра Мир</title>
+            <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/zoomsl-3.0.min.js"></script>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+    <script>
+jQuery(function(){
+
+    // åñëè îòñóòñâóåò zoomsl-3.0.min.js
+    if(!$.fn.imagezoomsl){
+    
+        $('.msg').show();
+        return;
+    }
+     else $('.msg').hide();
+
+     
+    // èíèöèàëèçàöèÿ ïëàãèíà
+    $('.my-foto').imagezoomsl({ 
+
+          innerzoommagnifier: true,
+          classmagnifier: window.external ? window.navigator.vendor === 'Yandex' ? "" : 'round-loope' : "", // fix äëÿ Opera, Safary, Yandex
+          magnifierborder: "5px solid #F0F0F0",                 // fix äëÿ Opera, Safary, Yandex          
+          zoomrange: [2, 8],
+          zoomstart: 4,
+          magnifiersize: [150, 150] 
+    });  
+});
+</script>
+
+<!-- êðóãëàÿ ëóïà â Chrome è Firefox -->
+<style>
+.round-loope{
+   border-radius: 75px;
+   border: 5px solid #F0F0F0;
+}
+</style>
+<br><br>
+
+
+
+<tr>
+        <div id="show">
+
+        
+            <img src="images/1.jpg" alt="Image 1" align="top">
+
+        </div>
+        
+
+        <div id="gallery">
+        <div style="text-align:center;">
+        <a>Ігровий каталог</a>
+
+            <ul>
+
+
+                <li><a href="http://176.114.0.132/torrent/347430/bioshock-infinite-v-1.1.25.5165-dlc-2013-pc-repack-ot-r-g-mehaniki/">
+
+
+                <b>BioShock Infinite(2013)</b>
+            
+
+    <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/1.jpg" data-large="images/1.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+              <li><a href="http://mirgam.net/games-action/742-quantum-break-2016-kvantum-breyk-kvantovyy-razlom.html">
+              <b>Quantum Break (2016)</b>
+
+
+
+    <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/2.jpg" data-large="images/2.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://torrent-igruha.net/482-x-com-2.html">
+                <b>XCOM 2 (2016)</b>
+
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/3.jpg" data-large="images/3.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://igri-2012.ru/rpg/3621-dark-souls-3-2016.html">
+                <b>Dark Souls 3 (2016)</b>
+
+               
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/4.jpg" data-large="images/4.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://igri-2012.ru/action/1752-darksiders-wrath-of-war-2010.html">
+                <b>Darksiders: Wrath of War (2010)</b>
+
+              
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/5.jpg" data-large="images/5.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://allbesta.net/torrent/13409-remember-me-2013-pc-124-repack-ot-rg-mehaniki.html">
+                <b>Remember Me (2013)</b>
+
+              
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/6.jpg" data-large="images/6.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://igrytorrent.ru/pc-games-windows-igry-torrent/10276-the-isle-2015.html">
+                <b>The Isle (2015)</b>
+
+                
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/7.jpg" data-large="images/7.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://igrigo.net/1350-ark-survival-of-the-fittest.html">
+                <b>Survival of the Fittest(2016)</b>
+
+              
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/8.jpg" data-large="images/8.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://igri-torrent.net/roleplay/758-diablo-3.html">
+                <b>Diablo 3 (2012)</b>
+
+              
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/9.jpg" data-large="images/9.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="https://sf.mail.ru/download_game">
+                <b>Skyforge</b>
+
+             
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/10.jpg" data-large="images/10.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://torrent-igruha.net/62-rainbow-six-siege.html">
+                <b>Rainbow Six Siege</b>
+
+               
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/11.jpg" data-large="images/11.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+                <li><a href="http://rg-mechanics.net/games/download/pc/starcraft_2_legacy_of_the_void_2015_pc_repack_ot_r_g_mekhaniki/3-1-0-1107">
+                <b>StarCraft 2: Legacy of the Void (2015)</b>
+
+
+               
+              <td width="40%">&nbsp;</td><td>
+                <img class="my-foto" src="images/12.jpg" data-large="images/12.jpg" title="Ôîòî"/>
+                </td><td width="40%">&nbsp;</td>
+            </ul>
+        </div>
+
+        <script src="main.js"></script>
+        </tr></table>
+    </body>
+</html>
